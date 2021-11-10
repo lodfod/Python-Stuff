@@ -23,7 +23,7 @@ def splice(parent_dir, name):
     chunks = make_chunks(podcast, chunk_length_ms) 
     chunkfiles = []
 
-    #Export all of the individual chunks as wav files
+    #Export all individual chunks as mp3 files
     for i, chunk in enumerate(chunks):
         chunk_name = name+"chunk{0}.mp3".format(i)
         chunkfiles.append(chunk_name)
