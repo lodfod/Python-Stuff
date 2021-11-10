@@ -1,3 +1,6 @@
+# program to split audio segments into 60 second intervals, for use in data training sets, uses PyDub
+# by Archish Arun 
+
 from pydub import AudioSegment
 from pydub.utils import make_chunks
 import shutil, os
