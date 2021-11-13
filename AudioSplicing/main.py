@@ -5,7 +5,7 @@ from pydub import AudioSegment
 from pydub.utils import make_chunks
 import shutil, os
 
-parent_dir = '/Users/archisharun/Desktop/AudioSplicing' # change to your path!!! windows example: C:\Documents\AudioSplicing
+parent_dir = '/path/to/parent_dir' # change to your path
 
 def splice(parent_dir, name):
     podcast = AudioSegment.from_file(name , "mp3") 
